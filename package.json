@@ -2,12 +2,17 @@
   "name": "firstagent",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --watch main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@openai/agents": "^0.3.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.8.1"
+  }
 }
