@@ -17,6 +17,9 @@ importers:
       openai:
         specifier: ^6.8.1
         version: 6.8.1(ws@8.18.3)(zod@3.25.76)
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
 
 packages:
 
