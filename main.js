@@ -11,4 +11,4 @@ import { get_weather } from './tools/weatherTool.js';
 
 // const result = await run(firstAgent, 'hello');
 // console.log(result.finalOutput);
-get_weather(`bhopal`);
+get_weather(`mail the weather reports of bhopal,goa,delhi to manishpandeycoding@gmail.com`);
